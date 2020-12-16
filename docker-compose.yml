@@ -1,0 +1,11 @@
+version: '3'
+services:
+    nginx:
+        build:
+            context: nginx
+        ports:
+            - 7341:7341
+        volumes:
+            - ./build:/usr/share/nginx/sudoku
+        environment:
+            - NODE_ENV=production

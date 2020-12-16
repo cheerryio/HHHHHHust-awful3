@@ -1,0 +1,89 @@
+{
+  "name": "software-project",
+  "version": "0.1.0",
+  "description": "software project homework",
+  "keywords": [
+    "software",
+    "project",
+    "homework",
+    "HUST"
+  ],
+  "homepage": ".",
+  "bugs": "https://github.com/xian18/software-project/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xian18/software-project"
+  },
+  "author": "TEAM",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@multiavatar/multiavatar": "^1.0.1",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/classnames": "^2.2.11",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.19.3",
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.9",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router": "^5.1.8",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/socket.io-client": "^1.4.34",
+    "classnames": "^2.2.6",
+    "exjs": "^1.2.1",
+    "express": "^4.17.1",
+    "notistack": "^1.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hotkeys": "^2.0.0",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-serialize": "^0.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.6.3",
+    "socket.io": "^3.0.3",
+    "socket.io-client": "^2.3.1",
+    "typedoc": "^0.19.2",
+    "typesafe-actions": "^5.1.0",
+    "typescript": "^4.0.5",
+    "typescript-json-serializer": "^2.5.0",
+    "use-hotkeys": "^1.1.0",
+    "web-vitals": "^0.2.4",
+    "websocket": "^1.0.32"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  },
+  "types": "types/index.d.ts"
+}
