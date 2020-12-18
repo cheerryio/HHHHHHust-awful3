@@ -79,9 +79,9 @@ const NumberBlock: FC<localProps> = memo(
                     container
                     className={classNames({
                         [classes.bottomPaddingBorder]: line === 2 || line === 5,
-                        [classes.topPadding]: !(line % 3),
+                        //[classes.topPadding]: !(line % 3),
                         [classes.rightPaddingBorder]: column === 2 || column === 5,
-                        [classes.leftPadding]: !(column % 3),
+                        //[classes.leftPadding]: !(column % 3),
                         [classes.splitBorder]: true,
                     })}>
                     {useMemo(
@@ -107,15 +107,7 @@ const NumberBlock: FC<localProps> = memo(
                                     /** 最后一个条件num === 1 | 2 ... 可以去掉，作为优化*/
                                     className={classNames(classes.numberIconNormal, {
                                         [classes.hightLight]: blockhighlight,
-                                        [classes.conflictOne]: showConflict && conflictValue === 1 && num === 1,
-                                        [classes.conflictTwo]: showConflict && conflictValue === 2 && num === 2,
-                                        [classes.conflictThree]: showConflict && conflictValue === 3 && num === 3,
-                                        [classes.conflictFour]: showConflict && conflictValue === 4 && num === 4,
-                                        [classes.conflictFive]: showConflict && conflictValue === 5 && num === 5,
-                                        [classes.conflictSix]: showConflict && conflictValue === 6 && num === 6,
-                                        [classes.conflictSeven]: showConflict && conflictValue === 7 && num === 7,
-                                        [classes.conflictEight]: showConflict && conflictValue === 8 && num === 8,
-                                        [classes.conflictNine]: showConflict && conflictValue === 9 && num === 9,
+                                        [classes.conflictNumber]: showConflict && conflictValue,
                                     })}
                                 />
                             </IconButton>

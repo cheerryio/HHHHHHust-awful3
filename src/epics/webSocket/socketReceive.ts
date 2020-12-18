@@ -12,8 +12,8 @@ export const socketReceiveEpic: Epic = (action$, state$, { socket$ }) =>
                 ? EMPTY
                 : new Observable<Action>((o) => {
                       /** 接收到消息*/
-                      socket.on('message', ({ message }: { message: Message }) => {
-                          o.next(addMessageAction({ ...message, isSelf: false }));
+                    socket.on('receiveMessage', (message: string) => {
+                          o.next(addMessageAction({ ...JSON.parse(message), isSelf: false }));
                       });
 
                       socket.on('id', ({ id }: { id: number }) => {

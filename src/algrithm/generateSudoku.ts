@@ -9,7 +9,6 @@ import { sudokuValue, Level } from '../types';
  *
  *
  */
-
 const a = null;
 const b = 0;
 let Sudoku: Array<Array<sudokuValue>> = [
@@ -57,7 +56,7 @@ export const generateSudoku = (level: Level): sudokuValue[][][] => {
         }
     }
     while (!fillForm(0, 1));
-    digHole((level + 1) * 10);
+    digHole((level + 2) * 10);
     getHole();
     return [Hole, Sudoku];
 };
@@ -121,13 +120,17 @@ function fillForm(y: number, val: sudokuValue): boolean {
     return false;
 }
 //找到挖洞的位置
+//修改holeposition
 function digHole(holeNum: number) {
+    console.log("进入dighole");
+    // console.log("%d", holeNum);
     let idx = new Array<number>(81);
     let i: number, k: number, temp: number;
     for (i = 0; i < 81; i++) {
         HolePosition[Math.floor(i / 9)][i % 9] = 0;
         idx[i] = i;
     }
+
     for (i = 0; i < holeNum; i++) {
         k = Math.floor(Math.random() * 81);
         temp = idx[k];
@@ -138,6 +141,8 @@ function digHole(holeNum: number) {
         HolePosition[Math.floor(idx[i] / 9)][idx[i] % 9] = 1;
     }
 }
+
+
 
 function getHole() {
     let x: number, y: number;

@@ -126,7 +126,7 @@ const Bar: FC<Props> = memo(({ updateSudokuAction, playRoundBackwardAction }) =>
             <Modal title='help' open={helper} onClose={toggleHelper}>
                 {HelpMessage}
             </Modal>
-            <Drawer open={drawer} />
+            {/*<Drawer open={drawer} />*/}
             <TipButton
                 TooltipProp={{ title: open ? '隐藏' : '显示', children: <></> }}
                 IconButtonProp={{

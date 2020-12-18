@@ -1,36 +1,39 @@
 import { Theme } from '@material-ui/core/styles/createMuiTheme';
 import { createStyles, makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles(({ palette, shadows, spacing, breakpoints }: Theme) =>
-    createStyles({
+const useStyles = makeStyles(({ palette, shadows, spacing, breakpoints }: Theme) => {
+    let screenNormal: boolean = window.innerWidth > window.innerHeight ? true : false; //true 是横屏，false是竖屏
+    return createStyles({
         playBoardContainer: {
             display: 'flex',
             position: 'fixed',
             left: '50%',
-            width: '84vmin',
-            height: '83.5vmin',
-
-            top: '50%',
-            transform: 'translate(-50%,-50%)',
-            [breakpoints.down('sm')]: {
-                transform: 'translate(-50%,0%)',
-                top: '10%',
-            },
+            width: '84.6vmin',
+            ...(() => {
+                if (screenNormal)
+                    return {
+                        top: '50%',
+                        transform: 'translate(-50%,-50%)',
+                    };
+                return {
+                    transform: 'translate(-50%,0%)',
+                    top: '10%',
+                };
+            })(),
             backgroundColor: `${palette.boardBackgroundColor?.main}`,
         },
         PlayBoardLine: {
             margin: spacing(0),
             padding: spacing(0),
-            height: '9vmin',
         },
         splitBorder: {
-            padding: '0.3vmin',
+            padding: '0.5vmin',
             margin: 0,
             //borderTop:`dashed 0.3vmin ${palette.numberBackgroundColor?.contrastText}`,
             borderBottom: `dashed 0.3vmin ${palette.numberBackgroundColor?.contrastText}`,
             borderRight: `dashed 0.3vmin ${palette.numberBackgroundColor?.contrastText}`,
-            width: '9.3vmin',
-            height: '9vmin',
+            width: '9.4vmin',
+            height: '9.4vmin',
         },
         playBoardBlockContainer: {
             position: 'relative',
@@ -39,21 +42,17 @@ const useStyles = makeStyles(({ palette, shadows, spacing, breakpoints }: Theme)
             cursor: 'pointer',
             textAlign: 'center',
             verticalAlign: '',
-            borderRadius: '0',
             backgroundColor: `${palette.numberBackgroundColor?.main}`,
             fill: `${palette.numberBackgroundColor?.contrastText}`,
         },
         hightLight: {
-            margin: 0,
-            padding: 0,
-
             backgroundColor: `${palette.hightLightNumberBackgroundColor?.main}`,
             color: `${palette.hightLightNumberBackgroundColor?.contrastText}`,
         },
         numberIconNormal: {
             margin: 0,
             padding: 0,
-            width: '8.25vmin',
+            width: '8vmin',
             //height:'8.7vmin',
             borderRadius: '20%',
         },
@@ -65,21 +64,18 @@ const useStyles = makeStyles(({ palette, shadows, spacing, breakpoints }: Theme)
         },
 
         rightPaddingBorder: {
-            paddingRight: '0.3vmin',
-            borderRight: '0.3vmin solid black',
+            //paddingRight: '0.3vmin',
+            borderRight: `0.3vmin solid ${palette.numberBackgroundColor?.contrastText}`,
         },
-        leftPadding: {
-            paddingLeft: '0.3vmin',
-        },
+
         bottomPaddingBorder: {
-            paddingBottom: '0.3vmin',
-            borderBottom: '0.3vmin solid black',
+            //paddingBottom: '0.3vmin',
+            borderBottom: `0.3vmin solid ${palette.numberBackgroundColor?.contrastText}`,
         },
-        topPadding: {
-            paddingTop: '0.3vmin',
-        },
+
         unchangeableBlock: {
-            backgroundColor: 'orange',
+            backgroundColor: `${palette.constNumberBackgroundColor?.main}`,
+            color: `${palette.constNumberBackgroundColor?.contrastText}`,
         },
         optionNumberIcon: {
             //background:"blue",
@@ -97,37 +93,14 @@ const useStyles = makeStyles(({ palette, shadows, spacing, breakpoints }: Theme)
             fontSize: '0rem',
         },
         optionalNumberTopPadding: {
-            paddingTop: '0.4vmin',
+            //paddingTop: '0.4vmin',
             //background:"blue",
         },
-        conflictOne: {
-            backgroundColor: 'blue',
+        conflictNumber: {
+            color: `${palette.conflictNumberBackgroundColor?.contrastText}`,
+            background: `${palette.conflictNumberBackgroundColor?.main}`,
         },
-        conflictTwo: {
-            backgroundColor: 'red',
-        },
-        conflictThree: {
-            backgroundColor: 'black',
-        },
-        conflictFour: {
-            backgroundColor: 'yellow',
-        },
-        conflictFive: {
-            backgroundColor: 'green',
-        },
-        conflictSix: {
-            backgroundColor: 'purple',
-        },
-        conflictSeven: {
-            backgroundColor: 'gray',
-        },
-        conflictEight: {
-            backgroundColor: '#eeeeee',
-        },
-        conflictNine: {
-            backgroundColor: 'red',
-        },
-    }),
-);
+    });
+});
 
 export default useStyles;

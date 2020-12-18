@@ -1,7 +1,8 @@
 import * as actions from '../actions';
 import { Message, Userinfo } from '../types';
 
-type ActionType = actions.SendMessage;
+type ActionType =
+    | actions.AddMessage
 
 export interface UserStore {
     messages: Message[];
@@ -36,7 +37,7 @@ const insert = (item: Message, arr: Message[]) => {
 
 export default (state = init, action: ActionType): UserStore => {
     switch (action.type) {
-        case actions.SEND_MESSAGE:
+        case actions.ADD_MESSAGE:
             const messages = insert(action.message, [...state.messages]);
             return { ...state, messages };
         default:

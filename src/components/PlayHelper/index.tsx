@@ -95,7 +95,7 @@ const PlayHelper: FC<Props> = memo(
          */
         const mapNumberIcon = useCallback(
             (value: number, index: number) => (
-                <Grid key={`value${value}`} item className={classes.numberIconNormal}>
+                <Grid key={`value${value}`} item className={classes.numberIconNormaContainer}>
                     <IconButton
                         onMouseEnter={() => {
                             blockHighlightAction(value);
@@ -110,7 +110,8 @@ const PlayHelper: FC<Props> = memo(
                             }
                         }}
                         onMouseLeave={clearBlockHighlightAction}
-                        className={classNames(classes.numberIconNormal)}>
+                        //className={classNames(classes.numberIconNormal)}
+                    >
                         <NumberSvg
                             num={value}
                             SvgProp={{

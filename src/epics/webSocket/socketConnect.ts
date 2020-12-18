@@ -11,7 +11,7 @@ export const socketConnectEpic: Epic = (action$, state$, { io, socket$ }) =>
         switchMap(
             () =>
                 new Observable<Socket>((o) => {
-                    const socket = io(API);
+                    const socket = io(API,{transports:['websocket']});
                     socket.on('connect', () => o.next(socket));
                     socket.on('disconnect', socket.close);
                 }),

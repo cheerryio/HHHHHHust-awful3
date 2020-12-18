@@ -43,6 +43,14 @@ const darkTheme = createMuiTheme({
             main: 'rgba(0,0,0,0)',
             contrastText: '#ffffff',
         },
+        constNumberBackgroundColor: {
+            main: '#525049',
+            contrastText: '#ffffff',
+        },
+        conflictNumberBackgroundColor: {
+            main: '#0f42bd',
+            contrastText: '#ffffff',
+        },
     },
     overrides: {
         MuiIconButton: {
@@ -73,6 +81,7 @@ const defaultTheme = createMuiTheme({
         },
         boardBackgroundColor: {
             main: '#FF8000',
+            contrastText: '#ffffff',
         },
         numberBackgroundColor: {
             main: 'rgba(0,0,0,0)',
@@ -80,6 +89,14 @@ const defaultTheme = createMuiTheme({
         },
         optionNumberBackgroudColor: {
             main: 'rgba(0,0,0,0)',
+            contrastText: '#ffffff',
+        },
+        constNumberBackgroundColor: {
+            main: '#ffcc00',
+            contrastText: '#ffffff',
+        },
+        conflictNumberBackgroundColor: {
+            main: '#23a3e8',
             contrastText: '#ffffff',
         },
     },

@@ -12,7 +12,7 @@ export const sendMessageEpic: Epic<SendMessage> = (action$, state$, { socket$ })
             return action$.pipe(
                 ofType<Action, SendMessage>(SEND_MESSAGE),
                 tap(({ message }: SendMessage) => {
-                    socket.emit('message', { message });
+                    socket.emit('sendMessage', JSON.stringify(message));
                     console.log('emit message finish');
                 }),
                 map(({ message }: SendMessage) => {
