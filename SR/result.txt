@@ -1,0 +1,1334 @@
+******模拟网络环境******：模拟网络环境初始化...
+******模拟网络环境******：模拟网络环境启动...
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 1, acknum = -1, checksum = 29555, AAAAAAAAAAAAAAAAAAAA
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 1, acknum = -1, checksum = 29555, AAAAAAAAAAAAAAAAAAAA
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 1, acknum = -1, checksum = 29555, BAAAAAAAAAAAAAAAAAAA
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = -1, checksum = 12852, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 1, acknum = -1, checksum = 29555, AAAAAAAAAAAAAAAAAAAA
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 29555, AAAAAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = -1, acknum = 1, checksum = 12850, ....................
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = -842150451, acknum = -842150451, checksum = -842150451, 屯屯屯屯屯屯屯屯屯屯
+Packet in slide window: seqnum = -842150451, acknum = -842150451, checksum = -842150451, 屯屯屯屯屯屯屯屯屯屯
+Packet in slide window: seqnum = -842150451, acknum = -842150451, checksum = -842150451, 屯屯屯屯屯屯屯屯屯屯
+Packet in slide window: seqnum = 1, acknum = -1, checksum = 29555, AAAAAAAAAAAAAAAAAAAA
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = -1, acknum = 3, checksum = 12848, ....................
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+接收方发送确认报文: seqnum = -1, acknum = 2, checksum = 12849, ....................
+Packet in slide window: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = -1, acknum = 4, checksum = 12847, ....................
+Packet in slide window: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+Packet in slide window: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = -1, acknum = 5, checksum = 12846, ....................
+Packet in slide window: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+接收方发送确认报文: seqnum = -1, acknum = 6, checksum = 12845, ....................
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = -1, acknum = 8, checksum = 12843, ....................
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+接收方正确收到发送方的报文: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = -1, acknum = 9, checksum = 12842, ....................
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 7, checksum = 12844, ....................
+Packet in slide window: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = -1, acknum = 8, checksum = 12843, ....................
+Packet in slide window: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = -1, acknum = 9, checksum = 12842, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+接收方正确收到发送方的报文: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = -1, acknum = 8, checksum = 12843, ....................
+接收方正确收到发送方的报文: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = -1, acknum = 9, checksum = 12842, ....................
+Packet in slide window: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 8, acknum = -1, checksum = 11558, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 9, acknum = -1, checksum = 8987, IIIIIIIIIIIIIIIIIIII
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 10, acknum = -1, checksum = 6416, JJJJJJJJJJJJJJJJJJJJ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 11, acknum = -1, checksum = 3845, KKKKKKKKKKKKKKKKKKKK
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 12, acknum = -1, checksum = 1274, LLLLLLLLLLLLLLLLLLLL
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 13, acknum = -1, checksum = 64238, MMMMMMMMMMMMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 10, acknum = -1, checksum = 6416, JJJJJJJJJJJJJJJJJJJJ
+接收方发送确认报文: seqnum = -1, acknum = 10, checksum = 12841, ....................
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 11, acknum = -1, checksum = 3845, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 12, acknum = -1, checksum = 1274, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 13, acknum = -1, checksum = 64238, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 10, acknum = -1, checksum = 6416, JJJJJJJJJJJJJJJJJJJJ
+接收方正确收到发送方的报文: seqnum = 11, acknum = -1, checksum = 3845, KKKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = -1, acknum = 11, checksum = 12840, ....................
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+接收方正确收到发送方的报文: seqnum = 12, acknum = -1, checksum = 1274, LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 12, checksum = 12839, ....................
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+接收方正确收到发送方的报文: seqnum = 13, acknum = -1, checksum = 64238, MMMMMMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = -1, acknum = 13, checksum = 12838, ....................
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 11, acknum = -1, checksum = 3845, KKKKKKKKKKKKKKKKKKKK
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 12, acknum = -1, checksum = 1274, LLLLLLLLLLLLLLLLLLLL
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 13, acknum = -1, checksum = 64238, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 12, acknum = -1, checksum = 1274, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 13, acknum = -1, checksum = 64238, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 10, acknum = -1, checksum = 6416, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 11, acknum = -1, checksum = 3845, KKKKKKKKKKKKKKKKKKKK
+接收方正确收到发送方的报文: seqnum = 11, acknum = -1, checksum = 3845, KKKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = -1, acknum = 11, checksum = 12840, ....................
+Packet in slide window: seqnum = 13, acknum = -1, checksum = 64238, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 10, acknum = -1, checksum = 6416, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 11, acknum = -1, checksum = 3845, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 12, acknum = -1, checksum = 1274, LLLLLLLLLLLLLLLLLLLL
+接收方正确收到发送方的报文: seqnum = 12, acknum = -1, checksum = 1274, LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 12, checksum = 12839, ....................
+接收方正确收到发送方的报文: seqnum = 13, acknum = -1, checksum = 64238, MMMMMMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = -1, acknum = 13, checksum = 12838, ....................
+Packet in slide window: seqnum = 10, acknum = -1, checksum = 6416, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 11, acknum = -1, checksum = 3845, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 12, acknum = -1, checksum = 1274, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 13, acknum = -1, checksum = 64238, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 10, acknum = -1, checksum = 6416, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 11, acknum = -1, checksum = 3845, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 12, acknum = -1, checksum = 1274, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 13, acknum = -1, checksum = 64238, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 10, acknum = -1, checksum = 6416, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 11, acknum = -1, checksum = 3845, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 12, acknum = -1, checksum = 1274, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 13, acknum = -1, checksum = 64238, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 10, acknum = -1, checksum = 6416, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 11, acknum = -1, checksum = 3845, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 12, acknum = -1, checksum = 1274, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 13, acknum = -1, checksum = 64238, MMMMMMMMMMMMMMMMMMMM
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 14, acknum = -1, checksum = 61667, NNNNNNNNNNNNNNNNNNNN
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 15, acknum = -1, checksum = 59096, OOOOOOOOOOOOOOOOOOOO
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 16, acknum = -1, checksum = 56525, PPPPPPPPPPPPPPPPPPPP
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 17, acknum = -1, checksum = 53954, QQQQQQQQQQQQQQQQQQQQ
+接收方正确收到发送方的报文: seqnum = 14, acknum = -1, checksum = 61667, NNNNNNNNNNNNNNNNNNNN
+接收方发送确认报文: seqnum = -1, acknum = 14, checksum = 12837, ....................
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 15, acknum = -1, checksum = 59096, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 16, acknum = -1, checksum = 56525, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 17, acknum = -1, checksum = 53954, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 14, acknum = -1, checksum = 61667, NNNNNNNNNNNNNNNNNNNN
+接收方正确收到发送方的报文: seqnum = 15, acknum = -1, checksum = 59096, OOOOOOOOOOOOOOOOOOOO
+接收方发送确认报文: seqnum = -1, acknum = 15, checksum = 12836, ....................
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+接收方正确收到发送方的报文: seqnum = 17, acknum = -1, checksum = 53954, QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 17, checksum = 12834, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 15, acknum = -1, checksum = 59096, OOOOOOOOOOOOOOOOOOOO
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 16, acknum = -1, checksum = 56525, PPPPPPPPPPPPPPPPPPPP
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 17, acknum = -1, checksum = 53954, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 15, acknum = -1, checksum = 59096, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 16, acknum = -1, checksum = 56525, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 17, acknum = -1, checksum = 53954, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 14, acknum = -1, checksum = 61667, NNNNNNNNNNNNNNNNNNNN
+接收方正确收到发送方的报文: seqnum = 15, acknum = -1, checksum = 59096, OOOOOOOOOOOOOOOOOOOO
+接收方发送确认报文: seqnum = -1, acknum = 15, checksum = 12836, ....................
+接收方正确收到发送方的报文: seqnum = 16, acknum = -1, checksum = 56525, PPPPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = -1, acknum = 16, checksum = 12835, ....................
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 16, acknum = -1, checksum = 56525, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 17, acknum = -1, checksum = 53954, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 14, acknum = -1, checksum = 61667, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 15, acknum = -1, checksum = 59096, OOOOOOOOOOOOOOOOOOOO
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 16, acknum = -1, checksum = 56525, PPPPPPPPPPPPPPPPPPPP
+接收方正确收到发送方的报文: seqnum = 17, acknum = -1, checksum = 53954, QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 17, checksum = 12834, ....................
+Packet in slide window: seqnum = 16, acknum = -1, checksum = 56525, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 17, acknum = -1, checksum = 53954, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 14, acknum = -1, checksum = 61667, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 15, acknum = -1, checksum = 59096, OOOOOOOOOOOOOOOOOOOO
+接收方正确收到发送方的报文: seqnum = 16, acknum = -1, checksum = 56525, PPPPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = -1, acknum = 16, checksum = 12835, ....................
+Packet in slide window: seqnum = 14, acknum = -1, checksum = 61667, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 15, acknum = -1, checksum = 59096, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 16, acknum = -1, checksum = 56525, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 17, acknum = -1, checksum = 53954, QQQQQQQQQQQQQQQQQQQQ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 19, acknum = -1, checksum = 48812, SSSSSSSSSSSSSSSSSSSS
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 21, acknum = -1, checksum = 43670, UUUUUUUUUUUUUUUUUUUU
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 18, acknum = -1, checksum = 51383, SRRRRRRRRRRRRRRRRRRR
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 16, checksum = 12835, ....................
+接收方正确收到发送方的报文: seqnum = 19, acknum = -1, checksum = 48812, SSSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = -1, acknum = 19, checksum = 12832, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 19, acknum = -1, checksum = 48812, SSSSSSSSSSSSSSSSSSSS
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 21, acknum = -1, checksum = 43670, UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 21, acknum = -1, checksum = 43670, UUUUUUUUUUUUUUUUUUUU
+接收方发送确认报文: seqnum = -1, acknum = 21, checksum = 12830, ....................
+Packet in slide window: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 19, acknum = -1, checksum = 48812, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 21, acknum = -1, checksum = 43670, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 19, acknum = -1, checksum = 48812, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 21, acknum = -1, checksum = 43670, UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 18, checksum = 12833, ....................
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 21, acknum = -1, checksum = 43670, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 19, acknum = -1, checksum = 48812, SSSSSSSSSSSSSSSSSSSS
+接收方正确收到发送方的报文: seqnum = 19, acknum = -1, checksum = 48812, SSSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = -1, acknum = 19, checksum = 12832, ....................
+Packet in slide window: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 21, acknum = -1, checksum = 43670, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 19, acknum = -1, checksum = 48812, SSSSSSSSSSSSSSSSSSSS
+接收方正确收到发送方的报文: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = -1, acknum = 20, checksum = 12831, ....................
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 19, acknum = -1, checksum = 48812, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 21, acknum = -1, checksum = 43670, UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 18, checksum = 12833, ....................
+Packet in slide window: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 19, acknum = -1, checksum = 48812, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 21, acknum = -1, checksum = 43670, UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = -1, acknum = 20, checksum = 12831, ....................
+Packet in slide window: seqnum = 18, acknum = -1, checksum = 51383, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 19, acknum = -1, checksum = 48812, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 20, acknum = -1, checksum = 46241, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 21, acknum = -1, checksum = 43670, UUUUUUUUUUUUUUUUUUUU
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 22, acknum = -1, checksum = 41099, VVVVVVVVVVVVVVVVVVVV
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 23, acknum = -1, checksum = 38528, WWWWWWWWWWWWWWWWWWWW
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 25, acknum = -1, checksum = 33386, YYYYYYYYYYYYYYYYYYYY
+接收方正确收到发送方的报文: seqnum = 22, acknum = -1, checksum = 41099, VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = -1, acknum = 22, checksum = 12829, ....................
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+接收方正确收到发送方的报文: seqnum = 23, acknum = -1, checksum = 38528, WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 23, checksum = 12828, ....................
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 22, acknum = -1, checksum = 41099, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 23, acknum = -1, checksum = 38528, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 25, acknum = -1, checksum = 33386, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 22, acknum = -1, checksum = 41099, VVVVVVVVVVVVVVVVVVVV
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 23, acknum = -1, checksum = 38528, WWWWWWWWWWWWWWWWWWWW
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 25, acknum = -1, checksum = 33386, YYYYYYYYYYYYYYYYYYYY
+接收方正确收到发送方的报文: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = -1, acknum = 24, checksum = 12827, ....................
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+接收方正确收到发送方的报文: seqnum = 22, acknum = -1, checksum = 41099, VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = -1, acknum = 22, checksum = 12829, ....................
+Packet in slide window: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 25, acknum = -1, checksum = 33386, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 22, acknum = -1, checksum = 41099, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 23, acknum = -1, checksum = 38528, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 25, acknum = -1, checksum = 33386, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 22, acknum = -1, checksum = 41099, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 23, acknum = -1, checksum = 38528, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 23, acknum = -1, checksum = 38528, WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 23, checksum = 12828, ....................
+Packet in slide window: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 25, acknum = -1, checksum = 33386, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 22, acknum = -1, checksum = 41099, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 23, acknum = -1, checksum = 38528, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = -1, acknum = 24, checksum = 12827, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 25, acknum = -1, checksum = 33386, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 25, acknum = -1, checksum = 33386, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 22, acknum = -1, checksum = 41099, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 23, acknum = -1, checksum = 38528, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+接收方正确收到发送方的报文: seqnum = 25, acknum = -1, checksum = 33386, YYYYYYYYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = -1, acknum = 25, checksum = 12826, ....................
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+接收方正确收到发送方的报文: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = -1, acknum = 24, checksum = 12827, ....................
+Packet in slide window: seqnum = 22, acknum = -1, checksum = 41099, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 23, acknum = -1, checksum = 38528, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 25, acknum = -1, checksum = 33386, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 22, acknum = -1, checksum = 41099, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 23, acknum = -1, checksum = 38528, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 24, acknum = -1, checksum = 35957, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 25, acknum = -1, checksum = 33386, YYYYYYYYYYYYYYYYYYYY
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 26, acknum = -1, checksum = 30815, ZZZZZZZZZZZZZZZZZZZZ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 27, acknum = -1, checksum = 29529, AAAAAAAAAAAAAAAAAAAA
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 28, acknum = -1, checksum = 26958, BBBBBBBBBBBBBBBBBBBB
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 29, acknum = -1, checksum = 24387, CCCCCCCCCCCCCCCCCCCC
+接收方正确收到发送方的报文: seqnum = 28, acknum = -1, checksum = 26958, BBBBBBBBBBBBBBBBBBBB
+接收方发送确认报文: seqnum = -1, acknum = 28, checksum = 12823, ....................
+Packet in slide window: seqnum = 26, acknum = -1, checksum = 30815, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 27, acknum = -1, checksum = 29529, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 28, acknum = -1, checksum = 26958, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 29, acknum = -1, checksum = 24387, CCCCCCCCCCCCCCCCCCCC
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 29, acknum = -1, checksum = 24387, DCCCCCCCCCCCCCCCCCCC
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 28, checksum = 12823, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 26, acknum = -1, checksum = 30815, ZZZZZZZZZZZZZZZZZZZZ
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 27, acknum = -1, checksum = 29529, AAAAAAAAAAAAAAAAAAAA
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 29, acknum = -1, checksum = 24387, CCCCCCCCCCCCCCCCCCCC
+接收方正确收到发送方的报文: seqnum = 26, acknum = -1, checksum = 30815, ZZZZZZZZZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = -1, acknum = 26, checksum = 12825, ....................
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+接收方正确收到发送方的报文: seqnum = 27, acknum = -1, checksum = 29529, AAAAAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = -1, acknum = 27, checksum = 12824, ....................
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 27, acknum = -1, checksum = 29529, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 28, acknum = -1, checksum = 26958, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 29, acknum = -1, checksum = 24387, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 26, acknum = -1, checksum = 30815, ZZZZZZZZZZZZZZZZZZZZ
+接收方正确收到发送方的报文: seqnum = 29, acknum = -1, checksum = 24387, CCCCCCCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = -1, acknum = 29, checksum = 12822, ....................
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 27, acknum = -1, checksum = 29529, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 28, acknum = -1, checksum = 26958, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 29, acknum = -1, checksum = 24387, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 26, acknum = -1, checksum = 30815, ZZZZZZZZZZZZZZZZZZZZ
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 27, acknum = -1, checksum = 29529, AAAAAAAAAAAAAAAAAAAA
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 27, acknum = -1, checksum = 29529, BAAAAAAAAAAAAAAAAAAA
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 29, checksum = 12822, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 27, acknum = -1, checksum = 29529, AAAAAAAAAAAAAAAAAAAA
+接收方正确收到发送方的报文: seqnum = 27, acknum = -1, checksum = 29529, AAAAAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = -1, acknum = 27, checksum = 12824, ....................
+Packet in slide window: seqnum = 26, acknum = -1, checksum = 30815, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 27, acknum = -1, checksum = 29529, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 28, acknum = -1, checksum = 26958, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 29, acknum = -1, checksum = 24387, CCCCCCCCCCCCCCCCCCCC
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 30, acknum = -1, checksum = 21816, DDDDDDDDDDDDDDDDDDDD
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 31, acknum = -1, checksum = 19245, EEEEEEEEEEEEEEEEEEEE
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 32, acknum = -1, checksum = 16674, FFFFFFFFFFFFFFFFFFFF
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 30, acknum = -1, checksum = 21816, DDDDDDDDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = -1, acknum = 30, checksum = 12821, ....................
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+接收方正确收到发送方的报文: seqnum = 31, acknum = -1, checksum = 19245, EEEEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = -1, acknum = 31, checksum = 12820, ....................
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 31, acknum = -1, checksum = 19245, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 32, acknum = -1, checksum = 16674, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 30, acknum = -1, checksum = 21816, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 32, acknum = -1, checksum = 16674, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 30, acknum = -1, checksum = 21816, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 31, acknum = -1, checksum = 19245, EEEEEEEEEEEEEEEEEEEE
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 32, acknum = -1, checksum = 16674, FFFFFFFFFFFFFFFFFFFF
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 32, acknum = -1, checksum = 16674, FFFFFFFFFFFFFFFFFFFF
+接收方发送确认报文: seqnum = -1, acknum = 32, checksum = 12819, ....................
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 30, acknum = -1, checksum = 21816, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 31, acknum = -1, checksum = 19245, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 32, acknum = -1, checksum = 16674, FFFFFFFFFFFFFFFFFFFF
+接收方正确收到发送方的报文: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 33, checksum = 12818, ....................
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 32, acknum = -1, checksum = 16674, FFFFFFFFFFFFFFFFFFFF
+接收方发送确认报文: seqnum = -1, acknum = 32, checksum = 12819, ....................
+Packet in slide window: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 30, acknum = -1, checksum = 21816, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 31, acknum = -1, checksum = 19245, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 32, acknum = -1, checksum = 16674, FFFFFFFFFFFFFFFFFFFF
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 30, acknum = -1, checksum = 21816, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 31, acknum = -1, checksum = 19245, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 32, acknum = -1, checksum = 16674, FFFFFFFFFFFFFFFFFFFF
+接收方正确收到发送方的报文: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 33, checksum = 12818, ....................
+Packet in slide window: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 30, acknum = -1, checksum = 21816, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 31, acknum = -1, checksum = 19245, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 32, acknum = -1, checksum = 16674, FFFFFFFFFFFFFFFFFFFF
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 33, checksum = 12818, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 33, checksum = 12818, ....................
+Packet in slide window: seqnum = 30, acknum = -1, checksum = 21816, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 31, acknum = -1, checksum = 19245, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 32, acknum = -1, checksum = 16674, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 33, acknum = -1, checksum = 14103, GGGGGGGGGGGGGGGGGGGG
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 34, acknum = -1, checksum = 11532, HHHHHHHHHHHHHHHHHHHH
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 35, acknum = -1, checksum = 8961, IIIIIIIIIIIIIIIIIIII
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 36, acknum = -1, checksum = 6390, JJJJJJJJJJJJJJJJJJJJ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 37, acknum = -1, checksum = 3819, KKKKKKKKKKKKKKKKKKKK
+接收方正确收到发送方的报文: seqnum = 34, acknum = -1, checksum = 11532, HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = -1, acknum = 34, checksum = 12817, ....................
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+接收方正确收到发送方的报文: seqnum = 35, acknum = -1, checksum = 8961, IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = -1, acknum = 35, checksum = 12816, ....................
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 36, acknum = -1, checksum = 6390, JJJJJJJJJJJJJJJJJJJJ
+接收方发送确认报文: seqnum = -1, acknum = 36, checksum = 12815, ....................
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 35, acknum = -1, checksum = 8961, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 36, acknum = -1, checksum = 6390, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 37, acknum = -1, checksum = 3819, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 34, acknum = -1, checksum = 11532, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 36, acknum = -1, checksum = 6390, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 37, acknum = -1, checksum = 3819, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 34, acknum = -1, checksum = 11532, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 35, acknum = -1, checksum = 8961, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 36, acknum = -1, checksum = 6390, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 37, acknum = -1, checksum = 3819, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 34, acknum = -1, checksum = 11532, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 35, acknum = -1, checksum = 8961, IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 37, acknum = -1, checksum = 3819, KKKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = -1, acknum = 37, checksum = 12814, ....................
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 36, acknum = -1, checksum = 6390, JJJJJJJJJJJJJJJJJJJJ
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 37, acknum = -1, checksum = 3819, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 36, acknum = -1, checksum = 6390, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 37, acknum = -1, checksum = 3819, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 34, acknum = -1, checksum = 11532, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 35, acknum = -1, checksum = 8961, IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 36, acknum = -1, checksum = 6390, JJJJJJJJJJJJJJJJJJJJ
+接收方发送确认报文: seqnum = -1, acknum = 36, checksum = 12815, ....................
+Packet in slide window: seqnum = 34, acknum = -1, checksum = 11532, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 35, acknum = -1, checksum = 8961, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 36, acknum = -1, checksum = 6390, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 37, acknum = -1, checksum = 3819, KKKKKKKKKKKKKKKKKKKK
+接收方正确收到发送方的报文: seqnum = 37, acknum = -1, checksum = 3819, KKKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = -1, acknum = 37, checksum = 12814, ....................
+Packet in slide window: seqnum = 34, acknum = -1, checksum = 11532, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 35, acknum = -1, checksum = 8961, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 36, acknum = -1, checksum = 6390, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 37, acknum = -1, checksum = 3819, KKKKKKKKKKKKKKKKKKKK
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 38, acknum = -1, checksum = 1248, LLLLLLLLLLLLLLLLLLLL
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 39, acknum = -1, checksum = 64212, MMMMMMMMMMMMMMMMMMMM
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 40, acknum = -1, checksum = 61641, NNNNNNNNNNNNNNNNNNNN
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 41, acknum = -1, checksum = 59070, OOOOOOOOOOOOOOOOOOOO
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 38, acknum = -1, checksum = 1248, MLLLLLLLLLLLLLLLLLLL
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 37, checksum = 12814, ....................
+接收方正确收到发送方的报文: seqnum = 39, acknum = -1, checksum = 64212, MMMMMMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = -1, acknum = 39, checksum = 12812, ....................
+Packet in slide window: seqnum = 38, acknum = -1, checksum = 1248, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 39, acknum = -1, checksum = 64212, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 40, acknum = -1, checksum = 61641, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 41, acknum = -1, checksum = 59070, OOOOOOOOOOOOOOOOOOOO
+接收方正确收到发送方的报文: seqnum = 40, acknum = -1, checksum = 61641, NNNNNNNNNNNNNNNNNNNN
+接收方发送确认报文: seqnum = -1, acknum = 40, checksum = 12811, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 38, acknum = -1, checksum = 1248, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 38, acknum = -1, checksum = 1248, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 39, acknum = -1, checksum = 64212, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 40, acknum = -1, checksum = 61641, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 41, acknum = -1, checksum = 59070, OOOOOOOOOOOOOOOOOOOO
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 41, acknum = -1, checksum = 59070, OOOOOOOOOOOOOOOOOOOO
+接收方正确收到发送方的报文: seqnum = 41, acknum = -1, checksum = 59070, OOOOOOOOOOOOOOOOOOOO
+接收方发送确认报文: seqnum = -1, acknum = 41, checksum = 12810, ....................
+Packet in slide window: seqnum = 38, acknum = -1, checksum = 1248, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 39, acknum = -1, checksum = 64212, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 40, acknum = -1, checksum = 61641, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 41, acknum = -1, checksum = 59070, OOOOOOOOOOOOOOOOOOOO
+接收方正确收到发送方的报文: seqnum = 38, acknum = -1, checksum = 1248, LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 38, checksum = 12813, ....................
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 59070, OOOOOOOOOOOOOOOOOOOO
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 38, checksum = 12813, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 38, acknum = -1, checksum = 1248, LLLLLLLLLLLLLLLLLLLL
+接收方正确收到发送方的报文: seqnum = 38, acknum = -1, checksum = 1248, LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 38, checksum = 12813, ....................
+Packet in slide window: seqnum = 38, acknum = -1, checksum = 1248, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 39, acknum = -1, checksum = 64212, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 40, acknum = -1, checksum = 61641, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 41, acknum = -1, checksum = 59070, OOOOOOOOOOOOOOOOOOOO
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 42, acknum = -1, checksum = 56499, PPPPPPPPPPPPPPPPPPPP
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 43, acknum = -1, checksum = 53928, QQQQQQQQQQQQQQQQQQQQ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 44, acknum = -1, checksum = 51357, RRRRRRRRRRRRRRRRRRRR
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+接收方正确收到发送方的报文: seqnum = 42, acknum = -1, checksum = 56499, PPPPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = -1, acknum = 42, checksum = 12809, ....................
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+接收方正确收到发送方的报文: seqnum = 43, acknum = -1, checksum = 53928, QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 43, checksum = 12808, ....................
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 43, acknum = -1, checksum = 53928, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 44, acknum = -1, checksum = 51357, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 42, acknum = -1, checksum = 56499, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 44, acknum = -1, checksum = 51357, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 42, acknum = -1, checksum = 56499, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 43, acknum = -1, checksum = 53928, QQQQQQQQQQQQQQQQQQQQ
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 44, acknum = -1, checksum = 51357, RRRRRRRRRRRRRRRRRRRR
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+接收方正确收到发送方的报文: seqnum = 44, acknum = -1, checksum = 51357, RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 44, checksum = 12807, ....................
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 42, acknum = -1, checksum = 56499, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 43, acknum = -1, checksum = 53928, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 44, acknum = -1, checksum = 51357, RRRRRRRRRRRRRRRRRRRR
+接收方正确收到发送方的报文: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = -1, acknum = 45, checksum = 12806, ....................
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+接收方正确收到发送方的报文: seqnum = 44, acknum = -1, checksum = 51357, RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 44, checksum = 12807, ....................
+接收方正确收到发送方的报文: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = -1, acknum = 45, checksum = 12806, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 42, acknum = -1, checksum = 56499, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 43, acknum = -1, checksum = 53928, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 44, acknum = -1, checksum = 51357, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+接收方正确收到发送方的报文: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = -1, acknum = 45, checksum = 12806, ....................
+Packet in slide window: seqnum = 42, acknum = -1, checksum = 56499, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 43, acknum = -1, checksum = 53928, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 44, acknum = -1, checksum = 51357, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 42, acknum = -1, checksum = 56499, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 43, acknum = -1, checksum = 53928, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 44, acknum = -1, checksum = 51357, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 42, acknum = -1, checksum = 56499, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 43, acknum = -1, checksum = 53928, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 44, acknum = -1, checksum = 51357, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 45, acknum = -1, checksum = 48786, SSSSSSSSSSSSSSSSSSSS
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 46, acknum = -1, checksum = 46215, TTTTTTTTTTTTTTTTTTTT
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 47, acknum = -1, checksum = 43644, UUUUUUUUUUUUUUUUUUUU
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 48, acknum = -1, checksum = 41073, VVVVVVVVVVVVVVVVVVVV
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 49, acknum = -1, checksum = 38502, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 46, acknum = -1, checksum = 46215, TTTTTTTTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = -1, acknum = 46, checksum = 12805, ....................
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 47, acknum = -1, checksum = 43644, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 48, acknum = -1, checksum = 41073, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 49, acknum = -1, checksum = 38502, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 46, acknum = -1, checksum = 46215, TTTTTTTTTTTTTTTTTTTT
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 43644, UUUUUUUUUUUUUUUUUUUU
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 46, checksum = 12805, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 47, acknum = -1, checksum = 43644, UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 48, acknum = -1, checksum = 41073, VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = -1, acknum = 48, checksum = 12803, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 48, acknum = -1, checksum = 41073, VVVVVVVVVVVVVVVVVVVV
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 49, acknum = -1, checksum = 38502, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 49, acknum = -1, checksum = 38502, WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 49, checksum = 12802, ....................
+接收方正确收到发送方的报文: seqnum = 48, acknum = -1, checksum = 41073, VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = -1, acknum = 48, checksum = 12803, ....................
+Packet in slide window: seqnum = 47, acknum = -1, checksum = 43644, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 48, acknum = -1, checksum = 41073, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 49, acknum = -1, checksum = 38502, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 46, acknum = -1, checksum = 46215, TTTTTTTTTTTTTTTTTTTT
+接收方正确收到发送方的报文: seqnum = 49, acknum = -1, checksum = 38502, WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 49, checksum = 12802, ....................
+Packet in slide window: seqnum = 47, acknum = -1, checksum = 43644, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 48, acknum = -1, checksum = 41073, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 49, acknum = -1, checksum = 38502, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 46, acknum = -1, checksum = 46215, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 47, acknum = -1, checksum = 43644, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 48, acknum = -1, checksum = 41073, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 49, acknum = -1, checksum = 38502, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 46, acknum = -1, checksum = 46215, TTTTTTTTTTTTTTTTTTTT
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 47, acknum = -1, checksum = 43644, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 47, acknum = -1, checksum = 43644, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 48, acknum = -1, checksum = 41073, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 49, acknum = -1, checksum = 38502, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 46, acknum = -1, checksum = 46215, TTTTTTTTTTTTTTTTTTTT
+接收方正确收到发送方的报文: seqnum = 47, acknum = -1, checksum = 43644, UUUUUUUUUUUUUUUUUUUU
+接收方发送确认报文: seqnum = -1, acknum = 47, checksum = 12804, ....................
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 46, acknum = -1, checksum = 46215, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 47, acknum = -1, checksum = 43644, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 48, acknum = -1, checksum = 41073, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 49, acknum = -1, checksum = 38502, WWWWWWWWWWWWWWWWWWWW
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 50, acknum = -1, checksum = 35931, XXXXXXXXXXXXXXXXXXXX
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 51, acknum = -1, checksum = 33360, YYYYYYYYYYYYYYYYYYYY
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 52, acknum = -1, checksum = 30789, ZZZZZZZZZZZZZZZZZZZZ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 53, acknum = -1, checksum = 29503, AAAAAAAAAAAAAAAAAAAA
+接收方正确收到发送方的报文: seqnum = 50, acknum = -1, checksum = 35931, XXXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = -1, acknum = 50, checksum = 12801, ....................
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 51, acknum = -1, checksum = 33360, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 52, acknum = -1, checksum = 30789, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 53, acknum = -1, checksum = 29503, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 50, acknum = -1, checksum = 35931, XXXXXXXXXXXXXXXXXXXX
+接收方正确收到发送方的报文: seqnum = 51, acknum = -1, checksum = 33360, YYYYYYYYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = -1, acknum = 51, checksum = 12800, ....................
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 52, acknum = -1, checksum = 30789, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 53, acknum = -1, checksum = 29503, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 50, acknum = -1, checksum = 35931, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 51, acknum = -1, checksum = 33360, YYYYYYYYYYYYYYYYYYYY
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 52, acknum = -1, checksum = 30789, ZZZZZZZZZZZZZZZZZZZZ
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 53, acknum = -1, checksum = 29503, AAAAAAAAAAAAAAAAAAAA
+接收方正确收到发送方的报文: seqnum = 52, acknum = -1, checksum = 30789, ZZZZZZZZZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = -1, acknum = 52, checksum = 12799, ....................
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+接收方正确收到发送方的报文: seqnum = 53, acknum = -1, checksum = 29503, AAAAAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = -1, acknum = 53, checksum = 12798, ....................
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+接收方正确收到发送方的报文: seqnum = 52, acknum = -1, checksum = 30789, ZZZZZZZZZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = -1, acknum = 52, checksum = 12799, ....................
+Packet in slide window: seqnum = 53, acknum = -1, checksum = 29503, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 50, acknum = -1, checksum = 35931, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 51, acknum = -1, checksum = 33360, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 52, acknum = -1, checksum = 30789, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 50, acknum = -1, checksum = 35931, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 51, acknum = -1, checksum = 33360, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 52, acknum = -1, checksum = 30789, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 53, acknum = -1, checksum = 29503, AAAAAAAAAAAAAAAAAAAA
+接收方正确收到发送方的报文: seqnum = 53, acknum = -1, checksum = 29503, AAAAAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = -1, acknum = 53, checksum = 12798, ....................
+Packet in slide window: seqnum = 50, acknum = -1, checksum = 35931, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 51, acknum = -1, checksum = 33360, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 52, acknum = -1, checksum = 30789, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 53, acknum = -1, checksum = 29503, AAAAAAAAAAAAAAAAAAAA
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 54, acknum = -1, checksum = 26932, BBBBBBBBBBBBBBBBBBBB
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 55, acknum = -1, checksum = 24361, CCCCCCCCCCCCCCCCCCCC
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 54, acknum = -1, checksum = 26932, BBBBBBBBBBBBBBBBBBBB
+接收方发送确认报文: seqnum = -1, acknum = 54, checksum = 12797, ....................
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+接收方正确收到发送方的报文: seqnum = 55, acknum = -1, checksum = 24361, CCCCCCCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = -1, acknum = 55, checksum = 12796, ....................
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 55, acknum = -1, checksum = 24361, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 54, acknum = -1, checksum = 26932, BBBBBBBBBBBBBBBBBBBB
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 55, acknum = -1, checksum = 24361, CCCCCCCCCCCCCCCCCCCC
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 55, checksum = 12796, ....................
+Packet in slide window: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 54, acknum = -1, checksum = 26932, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 55, acknum = -1, checksum = 24361, CCCCCCCCCCCCCCCCCCCC
+接收方正确收到发送方的报文: seqnum = 55, acknum = -1, checksum = 24361, CCCCCCCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = -1, acknum = 55, checksum = 12796, ....................
+Packet in slide window: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 54, acknum = -1, checksum = 26932, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 55, acknum = -1, checksum = 24361, CCCCCCCCCCCCCCCCCCCC
+接收方正确收到发送方的报文: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = -1, acknum = 56, checksum = 12795, ....................
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 54, acknum = -1, checksum = 26932, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 55, acknum = -1, checksum = 24361, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+接收方正确收到发送方的报文: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = -1, acknum = 57, checksum = 12794, ....................
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 54, acknum = -1, checksum = 26932, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 55, acknum = -1, checksum = 24361, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = -1, acknum = 56, checksum = 12795, ....................
+Packet in slide window: seqnum = 54, acknum = -1, checksum = 26932, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 55, acknum = -1, checksum = 24361, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = -1, acknum = 57, checksum = 12794, ....................
+Packet in slide window: seqnum = 54, acknum = -1, checksum = 26932, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 55, acknum = -1, checksum = 24361, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 56, acknum = -1, checksum = 21790, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 57, acknum = -1, checksum = 19219, EEEEEEEEEEEEEEEEEEEE
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 58, acknum = -1, checksum = 16648, FFFFFFFFFFFFFFFFFFFF
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 59, acknum = -1, checksum = 14077, GGGGGGGGGGGGGGGGGGGG
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 60, acknum = -1, checksum = 11506, HHHHHHHHHHHHHHHHHHHH
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 61, acknum = -1, checksum = 8935, IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 58, acknum = -1, checksum = 16648, FFFFFFFFFFFFFFFFFFFF
+接收方发送确认报文: seqnum = -1, acknum = 58, checksum = 12793, ....................
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 59, acknum = -1, checksum = 14077, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 60, acknum = -1, checksum = 11506, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 61, acknum = -1, checksum = 8935, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 58, acknum = -1, checksum = 16648, FFFFFFFFFFFFFFFFFFFF
+接收方正确收到发送方的报文: seqnum = 60, acknum = -1, checksum = 11506, HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = -1, acknum = 60, checksum = 12791, ....................
+接收方正确收到发送方的报文: seqnum = 61, acknum = -1, checksum = 8935, IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = -1, acknum = 61, checksum = 12790, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 59, acknum = -1, checksum = 14077, GGGGGGGGGGGGGGGGGGGG
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 60, acknum = -1, checksum = 11506, HHHHHHHHHHHHHHHHHHHH
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 61, acknum = -1, checksum = 8935, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 59, acknum = -1, checksum = 14077, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 60, acknum = -1, checksum = 11506, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 61, acknum = -1, checksum = 8935, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 58, acknum = -1, checksum = 16648, FFFFFFFFFFFFFFFFFFFF
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 14077, GGGGGGGGGGGGGGGGGGGG
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 61, checksum = 12790, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 59, acknum = -1, checksum = 14077, GGGGGGGGGGGGGGGGGGGG
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 60, acknum = -1, checksum = 11506, HHHHHHHHHHHHHHHHHHHH
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 60, acknum = -1, checksum = 11506, IHHHHHHHHHHHHHHHHHHH
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 61, checksum = 12790, ....................
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = -999999, acknum = -1, checksum = 8935, IIIIIIIIIIIIIIIIIIII
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 61, checksum = 12790, ....................
+接收方正确收到发送方的报文: seqnum = 59, acknum = -1, checksum = 14077, GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 59, checksum = 12792, ....................
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 60, acknum = -1, checksum = 11506, HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = -1, acknum = 60, checksum = 12791, ....................
+Packet in slide window: seqnum = 60, acknum = -1, checksum = 11506, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 61, acknum = -1, checksum = 8935, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 58, acknum = -1, checksum = 16648, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 59, acknum = -1, checksum = 14077, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 58, acknum = -1, checksum = 16648, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 59, acknum = -1, checksum = 14077, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 60, acknum = -1, checksum = 11506, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 61, acknum = -1, checksum = 8935, IIIIIIIIIIIIIIIIIIII
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 62, acknum = -1, checksum = 6364, JJJJJJJJJJJJJJJJJJJJ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 63, acknum = -1, checksum = 3793, KKKKKKKKKKKKKKKKKKKK
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 64, acknum = -1, checksum = 1222, LLLLLLLLLLLLLLLLLLLL
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 65, acknum = -1, checksum = 64186, MMMMMMMMMMMMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 63, acknum = -1, checksum = 3793, KKKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = -1, acknum = 63, checksum = 12788, ....................
+Packet in slide window: seqnum = 62, acknum = -1, checksum = 6364, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 63, acknum = -1, checksum = 3793, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 64, acknum = -1, checksum = 1222, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 65, acknum = -1, checksum = 64186, MMMMMMMMMMMMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 64, acknum = -1, checksum = 1222, LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 64, checksum = 12787, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 62, acknum = -1, checksum = 6364, JJJJJJJJJJJJJJJJJJJJ
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 64, acknum = -1, checksum = 1222, LLLLLLLLLLLLLLLLLLLL
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 65, acknum = -1, checksum = 64186, MMMMMMMMMMMMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 65, acknum = -1, checksum = 64186, MMMMMMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = -1, acknum = 65, checksum = 12786, ....................
+接收方正确收到发送方的报文: seqnum = 62, acknum = -1, checksum = 6364, JJJJJJJJJJJJJJJJJJJJ
+接收方发送确认报文: seqnum = -1, acknum = 62, checksum = 12789, ....................
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 62, acknum = -1, checksum = 6364, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 63, acknum = -1, checksum = 3793, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 64, acknum = -1, checksum = 1222, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 65, acknum = -1, checksum = 64186, MMMMMMMMMMMMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 64, acknum = -1, checksum = 1222, LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 64, checksum = 12787, ....................
+Packet in slide window: seqnum = 64, acknum = -1, checksum = 1222, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 65, acknum = -1, checksum = 64186, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 62, acknum = -1, checksum = 6364, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 63, acknum = -1, checksum = 3793, KKKKKKKKKKKKKKKKKKKK
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 64, acknum = -1, checksum = 1222, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 62, acknum = -1, checksum = 6364, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 63, acknum = -1, checksum = 3793, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 64, acknum = -1, checksum = 1222, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 65, acknum = -1, checksum = 64186, MMMMMMMMMMMMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 64, acknum = -1, checksum = 1222, LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 64, checksum = 12787, ....................
+Packet in slide window: seqnum = 62, acknum = -1, checksum = 6364, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 63, acknum = -1, checksum = 3793, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 64, acknum = -1, checksum = 1222, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 65, acknum = -1, checksum = 64186, MMMMMMMMMMMMMMMMMMMM
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 66, acknum = -1, checksum = 61615, NNNNNNNNNNNNNNNNNNNN
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 67, acknum = -1, checksum = 59044, OOOOOOOOOOOOOOOOOOOO
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 68, acknum = -1, checksum = 56473, PPPPPPPPPPPPPPPPPPPP
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 69, acknum = -1, checksum = 53902, QQQQQQQQQQQQQQQQQQQQ
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 66, acknum = -1, checksum = 61615, ONNNNNNNNNNNNNNNNNNN
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 64, checksum = 12787, ....................
+接收方正确收到发送方的报文: seqnum = 67, acknum = -1, checksum = 59044, OOOOOOOOOOOOOOOOOOOO
+接收方发送确认报文: seqnum = -1, acknum = 67, checksum = 12784, ....................
+接收方正确收到发送方的报文: seqnum = 68, acknum = -1, checksum = 56473, PPPPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = -1, acknum = 68, checksum = 12783, ....................
+Packet in slide window: seqnum = 66, acknum = -1, checksum = 61615, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 67, acknum = -1, checksum = 59044, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 68, acknum = -1, checksum = 56473, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 69, acknum = -1, checksum = 53902, QQQQQQQQQQQQQQQQQQQQ
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 66, acknum = -1, checksum = 61615, NNNNNNNNNNNNNNNNNNNN
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 68, acknum = -1, checksum = 56473, PPPPPPPPPPPPPPPPPPPP
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 69, acknum = -1, checksum = 53902, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 66, acknum = -1, checksum = 61615, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 67, acknum = -1, checksum = 59044, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 68, acknum = -1, checksum = 56473, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 69, acknum = -1, checksum = 53902, QQQQQQQQQQQQQQQQQQQQ
+接收方正确收到发送方的报文: seqnum = 69, acknum = -1, checksum = 53902, QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 69, checksum = 12782, ....................
+接收方正确收到发送方的报文: seqnum = 66, acknum = -1, checksum = 61615, NNNNNNNNNNNNNNNNNNNN
+接收方发送确认报文: seqnum = -1, acknum = 66, checksum = 12785, ....................
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+接收方正确收到发送方的报文: seqnum = 68, acknum = -1, checksum = 56473, PPPPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = -1, acknum = 68, checksum = 12783, ....................
+Packet in slide window: seqnum = 66, acknum = -1, checksum = 61615, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 67, acknum = -1, checksum = 59044, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 68, acknum = -1, checksum = 56473, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 69, acknum = -1, checksum = 53902, QQQQQQQQQQQQQQQQQQQQ
+接收方正确收到发送方的报文: seqnum = 69, acknum = -1, checksum = 53902, QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 69, checksum = 12782, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 66, acknum = -1, checksum = 61615, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 66, acknum = -1, checksum = 61615, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 67, acknum = -1, checksum = 59044, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 68, acknum = -1, checksum = 56473, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 69, acknum = -1, checksum = 53902, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 66, acknum = -1, checksum = 61615, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 67, acknum = -1, checksum = 59044, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 68, acknum = -1, checksum = 56473, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 69, acknum = -1, checksum = 53902, QQQQQQQQQQQQQQQQQQQQ
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 66, acknum = -1, checksum = 61615, ONNNNNNNNNNNNNNNNNNN
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 69, checksum = 12782, ....................
+Packet in slide window: seqnum = 66, acknum = -1, checksum = 61615, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 67, acknum = -1, checksum = 59044, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 68, acknum = -1, checksum = 56473, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 69, acknum = -1, checksum = 53902, QQQQQQQQQQQQQQQQQQQQ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 71, acknum = -1, checksum = 48760, SSSSSSSSSSSSSSSSSSSS
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 72, acknum = -1, checksum = 46189, TTTTTTTTTTTTTTTTTTTT
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 73, acknum = -1, checksum = 43618, UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 70, checksum = 12781, ....................
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 71, acknum = -1, checksum = 48760, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 72, acknum = -1, checksum = 46189, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 73, acknum = -1, checksum = 43618, UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 71, acknum = -1, checksum = 48760, SSSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = -1, acknum = 71, checksum = 12780, ....................
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+接收方正确收到发送方的报文: seqnum = 72, acknum = -1, checksum = 46189, TTTTTTTTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = -1, acknum = 72, checksum = 12779, ....................
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 71, acknum = -1, checksum = 48760, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 72, acknum = -1, checksum = 46189, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 73, acknum = -1, checksum = 43618, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 71, acknum = -1, checksum = 48760, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 72, acknum = -1, checksum = 46189, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 73, acknum = -1, checksum = 43618, UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 73, acknum = -1, checksum = 43618, UUUUUUUUUUUUUUUUUUUU
+接收方发送确认报文: seqnum = -1, acknum = 73, checksum = 12778, ....................
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 73, acknum = -1, checksum = 43618, UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 73, acknum = -1, checksum = 43618, UUUUUUUUUUUUUUUUUUUU
+接收方发送确认报文: seqnum = -1, acknum = 73, checksum = 12778, ....................
+Packet in slide window: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 71, acknum = -1, checksum = 48760, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 72, acknum = -1, checksum = 46189, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 73, acknum = -1, checksum = 43618, UUUUUUUUUUUUUUUUUUUU
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+接收方正确收到发送方的报文: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 70, checksum = 12781, ....................
+Packet in slide window: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 71, acknum = -1, checksum = 48760, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 72, acknum = -1, checksum = 46189, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 73, acknum = -1, checksum = 43618, UUUUUUUUUUUUUUUUUUUU
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+接收方正确收到发送方的报文: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 70, checksum = 12781, ....................
+Packet in slide window: seqnum = 70, acknum = -1, checksum = 51331, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 71, acknum = -1, checksum = 48760, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 72, acknum = -1, checksum = 46189, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 73, acknum = -1, checksum = 43618, UUUUUUUUUUUUUUUUUUUU
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 74, acknum = -1, checksum = 41047, VVVVVVVVVVVVVVVVVVVV
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 75, acknum = -1, checksum = 38476, WWWWWWWWWWWWWWWWWWWW
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+接收方正确收到发送方的报文: seqnum = 74, acknum = -1, checksum = 41047, VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = -1, acknum = 74, checksum = 12777, ....................
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+接收方正确收到发送方的报文: seqnum = 75, acknum = -1, checksum = 38476, WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 75, checksum = 12776, ....................
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 75, acknum = -1, checksum = 38476, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 74, acknum = -1, checksum = 41047, VVVVVVVVVVVVVVVVVVVV
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 75, acknum = -1, checksum = 38476, WWWWWWWWWWWWWWWWWWWW
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 74, acknum = -1, checksum = 41047, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 75, acknum = -1, checksum = 38476, WWWWWWWWWWWWWWWWWWWW
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 76, acknum = -999999, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 75, checksum = 12776, ....................
+接收方正确收到发送方的报文: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = -1, acknum = 77, checksum = 12774, ....................
+接收方正确收到发送方的报文: seqnum = 75, acknum = -1, checksum = 38476, WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 75, checksum = 12776, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 74, acknum = -1, checksum = 41047, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 75, acknum = -1, checksum = 38476, WWWWWWWWWWWWWWWWWWWW
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 76, acknum = -1, checksum = 35905, YXXXXXXXXXXXXXXXXXXX
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 75, checksum = 12776, ....................
+接收方正确收到发送方的报文: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = -1, acknum = 77, checksum = 12774, ....................
+Packet in slide window: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 74, acknum = -1, checksum = 41047, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 75, acknum = -1, checksum = 38476, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = -1, acknum = 76, checksum = 12775, ....................
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+接收方正确收到发送方的报文: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = -1, acknum = 77, checksum = 12774, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 74, acknum = -1, checksum = 41047, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 75, acknum = -1, checksum = 38476, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = -1, acknum = 76, checksum = 12775, ....................
+Packet in slide window: seqnum = 74, acknum = -1, checksum = 41047, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 75, acknum = -1, checksum = 38476, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 74, acknum = -1, checksum = 41047, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 75, acknum = -1, checksum = 38476, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 76, acknum = -1, checksum = 35905, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 77, acknum = -1, checksum = 33334, YYYYYYYYYYYYYYYYYYYY
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 78, acknum = -1, checksum = 30763, ZZZZZZZZZZZZZZZZZZZZ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 79, acknum = -1, checksum = 29477, AAAAAAAAAAAAAAAAAAAA
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 80, acknum = -1, checksum = 26906, BBBBBBBBBBBBBBBBBBBB
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 81, acknum = -1, checksum = 24335, CCCCCCCCCCCCCCCCCCCC
+接收方正确收到发送方的报文: seqnum = 78, acknum = -1, checksum = 30763, ZZZZZZZZZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = -1, acknum = 78, checksum = 12773, ....................
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+接收方正确收到发送方的报文: seqnum = 79, acknum = -1, checksum = 29477, AAAAAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = -1, acknum = 79, checksum = 12772, ....................
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+接收方正确收到发送方的报文: seqnum = 80, acknum = -1, checksum = 26906, BBBBBBBBBBBBBBBBBBBB
+接收方发送确认报文: seqnum = -1, acknum = 80, checksum = 12771, ....................
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 78, acknum = -1, checksum = 30763, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 79, acknum = -1, checksum = 29477, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 80, acknum = -1, checksum = 26906, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 81, acknum = -1, checksum = 24335, CCCCCCCCCCCCCCCCCCCC
+接收方正确收到发送方的报文: seqnum = 81, acknum = -1, checksum = 24335, CCCCCCCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = -1, acknum = 81, checksum = 12770, ....................
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 78, acknum = -1, checksum = 30763, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 79, acknum = -1, checksum = 29477, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 80, acknum = -1, checksum = 26906, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 81, acknum = -1, checksum = 24335, CCCCCCCCCCCCCCCCCCCC
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 78, acknum = -1, checksum = 30763, ZZZZZZZZZZZZZZZZZZZZ
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 81, acknum = -1, checksum = 24335, CCCCCCCCCCCCCCCCCCCC
+接收方正确收到发送方的报文: seqnum = 78, acknum = -1, checksum = 30763, ZZZZZZZZZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = -1, acknum = 78, checksum = 12773, ....................
+Packet in slide window: seqnum = 78, acknum = -1, checksum = 30763, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 79, acknum = -1, checksum = 29477, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 80, acknum = -1, checksum = 26906, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 81, acknum = -1, checksum = 24335, CCCCCCCCCCCCCCCCCCCC
+接收方正确收到发送方的报文: seqnum = 81, acknum = -1, checksum = 24335, CCCCCCCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = -1, acknum = 81, checksum = 12770, ....................
+Packet in slide window: seqnum = 78, acknum = -1, checksum = 30763, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 79, acknum = -1, checksum = 29477, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 80, acknum = -1, checksum = 26906, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 81, acknum = -1, checksum = 24335, CCCCCCCCCCCCCCCCCCCC
+Packet in slide window: seqnum = 78, acknum = -1, checksum = 30763, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 79, acknum = -1, checksum = 29477, AAAAAAAAAAAAAAAAAAAA
+Packet in slide window: seqnum = 80, acknum = -1, checksum = 26906, BBBBBBBBBBBBBBBBBBBB
+Packet in slide window: seqnum = 81, acknum = -1, checksum = 24335, CCCCCCCCCCCCCCCCCCCC
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 82, acknum = -1, checksum = 21764, DDDDDDDDDDDDDDDDDDDD
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 83, acknum = -1, checksum = 19193, EEEEEEEEEEEEEEEEEEEE
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 84, acknum = -1, checksum = 16622, FFFFFFFFFFFFFFFFFFFF
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 85, acknum = -1, checksum = 14051, GGGGGGGGGGGGGGGGGGGG
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 82, acknum = -1, checksum = 21764, EDDDDDDDDDDDDDDDDDDD
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 81, checksum = 12770, ....................
+接收方正确收到发送方的报文: seqnum = 83, acknum = -1, checksum = 19193, EEEEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = -1, acknum = 83, checksum = 12768, ....................
+Packet in slide window: seqnum = 82, acknum = -1, checksum = 21764, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 83, acknum = -1, checksum = 19193, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 84, acknum = -1, checksum = 16622, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 85, acknum = -1, checksum = 14051, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 84, acknum = -1, checksum = 16622, FFFFFFFFFFFFFFFFFFFF
+接收方发送确认报文: seqnum = -1, acknum = 84, checksum = 12767, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 82, acknum = -1, checksum = 21764, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 82, acknum = -1, checksum = 21764, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 83, acknum = -1, checksum = 19193, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 84, acknum = -1, checksum = 16622, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 85, acknum = -1, checksum = 14051, GGGGGGGGGGGGGGGGGGGG
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 85, acknum = -1, checksum = 14051, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 85, acknum = -1, checksum = 14051, GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 85, checksum = 12766, ....................
+接收方正确收到发送方的报文: seqnum = 82, acknum = -1, checksum = 21764, DDDDDDDDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = -1, acknum = 82, checksum = 12769, ....................
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 82, acknum = -1, checksum = 21764, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 83, acknum = -1, checksum = 19193, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 84, acknum = -1, checksum = 16622, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 85, acknum = -1, checksum = 14051, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 85, acknum = -1, checksum = 14051, GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = -1, acknum = 85, checksum = 12766, ....................
+Packet in slide window: seqnum = 82, acknum = -1, checksum = 21764, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 83, acknum = -1, checksum = 19193, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 84, acknum = -1, checksum = 16622, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 85, acknum = -1, checksum = 14051, GGGGGGGGGGGGGGGGGGGG
+Packet in slide window: seqnum = 82, acknum = -1, checksum = 21764, DDDDDDDDDDDDDDDDDDDD
+Packet in slide window: seqnum = 83, acknum = -1, checksum = 19193, EEEEEEEEEEEEEEEEEEEE
+Packet in slide window: seqnum = 84, acknum = -1, checksum = 16622, FFFFFFFFFFFFFFFFFFFF
+Packet in slide window: seqnum = 85, acknum = -1, checksum = 14051, GGGGGGGGGGGGGGGGGGGG
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 86, acknum = -1, checksum = 11480, HHHHHHHHHHHHHHHHHHHH
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 88, acknum = -1, checksum = 6338, JJJJJJJJJJJJJJJJJJJJ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 89, acknum = -1, checksum = 3767, KKKKKKKKKKKKKKKKKKKK
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 86, acknum = -1, checksum = 11480, IHHHHHHHHHHHHHHHHHHH
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 85, checksum = 12766, ....................
+接收方正确收到发送方的报文: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = -1, acknum = 87, checksum = 12764, ....................
+接收方正确收到发送方的报文: seqnum = 88, acknum = -1, checksum = 6338, JJJJJJJJJJJJJJJJJJJJ
+接收方发送确认报文: seqnum = -1, acknum = 88, checksum = 12763, ....................
+Packet in slide window: seqnum = 86, acknum = -1, checksum = 11480, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 88, acknum = -1, checksum = 6338, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 89, acknum = -1, checksum = 3767, KKKKKKKKKKKKKKKKKKKK
+接收方正确收到发送方的报文: seqnum = 89, acknum = -1, checksum = 3767, KKKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = -1, acknum = 89, checksum = 12762, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 86, acknum = -1, checksum = 11480, HHHHHHHHHHHHHHHHHHHH
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 89, acknum = -1, checksum = 3767, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 86, acknum = -1, checksum = 11480, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 88, acknum = -1, checksum = 6338, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 89, acknum = -1, checksum = 3767, KKKKKKKKKKKKKKKKKKKK
+接收方正确收到发送方的报文: seqnum = 86, acknum = -1, checksum = 11480, HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = -1, acknum = 86, checksum = 12765, ....................
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 88, acknum = -1, checksum = 6338, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 89, acknum = -1, checksum = 3767, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 86, acknum = -1, checksum = 11480, HHHHHHHHHHHHHHHHHHHH
+接收方正确收到发送方的报文: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = -1, acknum = 87, checksum = 12764, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 89, acknum = -1, checksum = 3767, KKKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = -1, acknum = 89, checksum = 12762, ....................
+接收方正确收到发送方的报文: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = -1, acknum = 87, checksum = 12764, ....................
+Packet in slide window: seqnum = 86, acknum = -1, checksum = 11480, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 88, acknum = -1, checksum = 6338, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 89, acknum = -1, checksum = 3767, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 86, acknum = -1, checksum = 11480, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 88, acknum = -1, checksum = 6338, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 89, acknum = -1, checksum = 3767, KKKKKKKKKKKKKKKKKKKK
+Packet in slide window: seqnum = 86, acknum = -1, checksum = 11480, HHHHHHHHHHHHHHHHHHHH
+Packet in slide window: seqnum = 87, acknum = -1, checksum = 8909, IIIIIIIIIIIIIIIIIIII
+Packet in slide window: seqnum = 88, acknum = -1, checksum = 6338, JJJJJJJJJJJJJJJJJJJJ
+Packet in slide window: seqnum = 89, acknum = -1, checksum = 3767, KKKKKKKKKKKKKKKKKKKK
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 90, acknum = -1, checksum = 1196, LLLLLLLLLLLLLLLLLLLL
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 91, acknum = -1, checksum = 64160, MMMMMMMMMMMMMMMMMMMM
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 92, acknum = -1, checksum = 61589, NNNNNNNNNNNNNNNNNNNN
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 93, acknum = -1, checksum = 59018, OOOOOOOOOOOOOOOOOOOO
+接收方正确收到发送方的报文: seqnum = 90, acknum = -1, checksum = 1196, LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = -1, acknum = 90, checksum = 12761, ....................
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 91, acknum = -1, checksum = 64160, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 92, acknum = -1, checksum = 61589, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 93, acknum = -1, checksum = 59018, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 90, acknum = -1, checksum = 1196, LLLLLLLLLLLLLLLLLLLL
+接收方正确收到发送方的报文: seqnum = 91, acknum = -1, checksum = 64160, MMMMMMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = -1, acknum = 91, checksum = 12760, ....................
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 92, acknum = -1, checksum = 61589, NNNNNNNNNNNNNNNNNNNN
+接收方发送确认报文: seqnum = -1, acknum = 92, checksum = 12759, ....................
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+接收方正确收到发送方的报文: seqnum = 93, acknum = -1, checksum = 59018, OOOOOOOOOOOOOOOOOOOO
+接收方发送确认报文: seqnum = -1, acknum = 93, checksum = 12758, ....................
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 91, acknum = -1, checksum = 64160, MMMMMMMMMMMMMMMMMMMM
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 92, acknum = -1, checksum = 61589, NNNNNNNNNNNNNNNNNNNN
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 93, acknum = -1, checksum = 59018, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 91, acknum = -1, checksum = 64160, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 92, acknum = -1, checksum = 61589, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 93, acknum = -1, checksum = 59018, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 90, acknum = -1, checksum = 1196, LLLLLLLLLLLLLLLLLLLL
+接收方正确收到发送方的报文: seqnum = 91, acknum = -1, checksum = 64160, MMMMMMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = -1, acknum = 91, checksum = 12760, ....................
+Packet in slide window: seqnum = 91, acknum = -1, checksum = 64160, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 92, acknum = -1, checksum = 61589, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 93, acknum = -1, checksum = 59018, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 90, acknum = -1, checksum = 1196, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 92, acknum = -1, checksum = 61589, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 93, acknum = -1, checksum = 59018, OOOOOOOOOOOOOOOOOOOO
+Packet in slide window: seqnum = 90, acknum = -1, checksum = 1196, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 91, acknum = -1, checksum = 64160, MMMMMMMMMMMMMMMMMMMM
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 92, acknum = -1, checksum = 61589, ONNNNNNNNNNNNNNNNNNN
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 91, checksum = 12760, ....................
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 93, acknum = -999999, checksum = 59018, OOOOOOOOOOOOOOOOOOOO
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 91, checksum = 12760, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 92, acknum = -1, checksum = 61589, NNNNNNNNNNNNNNNNNNNN
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 92, acknum = -1, checksum = 61589, NNNNNNNNNNNNNNNNNNNN
+接收方正确收到发送方的报文: seqnum = 92, acknum = -1, checksum = 61589, NNNNNNNNNNNNNNNNNNNN
+接收方发送确认报文: seqnum = -1, acknum = 92, checksum = 12759, ....................
+Packet in slide window: seqnum = 90, acknum = -1, checksum = 1196, LLLLLLLLLLLLLLLLLLLL
+Packet in slide window: seqnum = 91, acknum = -1, checksum = 64160, MMMMMMMMMMMMMMMMMMMM
+Packet in slide window: seqnum = 92, acknum = -1, checksum = 61589, NNNNNNNNNNNNNNNNNNNN
+Packet in slide window: seqnum = 93, acknum = -1, checksum = 59018, OOOOOOOOOOOOOOOOOOOO
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 94, acknum = -1, checksum = 56447, PPPPPPPPPPPPPPPPPPPP
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 96, acknum = -1, checksum = 51305, RRRRRRRRRRRRRRRRRRRR
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 97, acknum = -1, checksum = 48734, SSSSSSSSSSSSSSSSSSSS
+接收方正确收到发送方的报文: seqnum = 94, acknum = -1, checksum = 56447, PPPPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = -1, acknum = 94, checksum = 12757, ....................
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 96, acknum = -1, checksum = 51305, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 97, acknum = -1, checksum = 48734, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 94, acknum = -1, checksum = 56447, PPPPPPPPPPPPPPPPPPPP
+接收方正确收到发送方的报文: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 95, checksum = 12756, ....................
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 96, acknum = -1, checksum = 51305, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 97, acknum = -1, checksum = 48734, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 94, acknum = -1, checksum = 56447, PPPPPPPPPPPPPPPPPPPP
+接收方正确收到发送方的报文: seqnum = 96, acknum = -1, checksum = 51305, RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 96, checksum = 12755, ....................
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 96, acknum = -1, checksum = 51305, RRRRRRRRRRRRRRRRRRRR
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 97, acknum = -1, checksum = 48734, SSSSSSSSSSSSSSSSSSSS
+接收方正确收到发送方的报文: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 95, checksum = 12756, ....................
+Packet in slide window: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 96, acknum = -1, checksum = 51305, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 97, acknum = -1, checksum = 48734, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 94, acknum = -1, checksum = 56447, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 96, acknum = -1, checksum = 51305, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 97, acknum = -1, checksum = 48734, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 94, acknum = -1, checksum = 56447, PPPPPPPPPPPPPPPPPPPP
+接收方正确收到发送方的报文: seqnum = 96, acknum = -1, checksum = 51305, RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = -1, acknum = 96, checksum = 12755, ....................
+接收方正确收到发送方的报文: seqnum = 97, acknum = -1, checksum = 48734, SSSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = -1, acknum = 97, checksum = 12754, ....................
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 96, acknum = -1, checksum = 51305, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 97, acknum = -1, checksum = 48734, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 94, acknum = -1, checksum = 56447, PPPPPPPPPPPPPPPPPPPP
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+接收方正确收到发送方的报文: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 95, checksum = 12756, ....................
+Packet in slide window: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 96, acknum = -1, checksum = 51305, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 97, acknum = -1, checksum = 48734, SSSSSSSSSSSSSSSSSSSS
+Packet in slide window: seqnum = 94, acknum = -1, checksum = 56447, PPPPPPPPPPPPPPPPPPPP
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+接收方正确收到发送方的报文: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = -1, acknum = 95, checksum = 12756, ....................
+Packet in slide window: seqnum = 94, acknum = -1, checksum = 56447, PPPPPPPPPPPPPPPPPPPP
+Packet in slide window: seqnum = 95, acknum = -1, checksum = 53876, QQQQQQQQQQQQQQQQQQQQ
+Packet in slide window: seqnum = 96, acknum = -1, checksum = 51305, RRRRRRRRRRRRRRRRRRRR
+Packet in slide window: seqnum = 97, acknum = -1, checksum = 48734, SSSSSSSSSSSSSSSSSSSS
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 98, acknum = -1, checksum = 46163, TTTTTTTTTTTTTTTTTTTT
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 99, acknum = -1, checksum = 43592, UUUUUUUUUUUUUUUUUUUU
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 100, acknum = -1, checksum = 41021, VVVVVVVVVVVVVVVVVVVV
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 98, acknum = -1, checksum = 46163, TTTTTTTTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = -1, acknum = 98, checksum = 12753, ....................
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 99, acknum = -1, checksum = 43592, VUUUUUUUUUUUUUUUUUUU
+接收方不重新发送上次的确认报文: seqnum = -1, acknum = 98, checksum = 12753, ....................
+接收方正确收到发送方的报文: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 101, checksum = 12750, ....................
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 98, acknum = -1, checksum = 46163, TTTTTTTTTTTTTTTTTTTT
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 99, acknum = -1, checksum = 43592, UUUUUUUUUUUUUUUUUUUU
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 100, acknum = -1, checksum = 41021, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 98, acknum = -1, checksum = 46163, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 99, acknum = -1, checksum = 43592, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 100, acknum = -1, checksum = 41021, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 98, acknum = -1, checksum = 46163, TTTTTTTTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = -1, acknum = 98, checksum = 12753, ....................
+Packet in slide window: seqnum = 99, acknum = -1, checksum = 43592, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 100, acknum = -1, checksum = 41021, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 98, acknum = -1, checksum = 46163, TTTTTTTTTTTTTTTTTTTT
+接收方正确收到发送方的报文: seqnum = 99, acknum = -1, checksum = 43592, UUUUUUUUUUUUUUUUUUUU
+接收方发送确认报文: seqnum = -1, acknum = 99, checksum = 12752, ....................
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 100, acknum = -1, checksum = 41021, VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = -1, acknum = 100, checksum = 12751, ....................
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 100, acknum = -1, checksum = 41021, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 98, acknum = -1, checksum = 46163, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 99, acknum = -1, checksum = 43592, UUUUUUUUUUUUUUUUUUUU
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 100, acknum = -1, checksum = 41021, VVVVVVVVVVVVVVVVVVVV
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 98, acknum = -1, checksum = 46163, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 99, acknum = -1, checksum = 43592, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 100, acknum = -1, checksum = 41021, VVVVVVVVVVVVVVVVVVVV
+接收方正确收到发送方的报文: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 101, checksum = 12750, ....................
+接收方正确收到发送方的报文: seqnum = 100, acknum = -1, checksum = 41021, VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = -1, acknum = 100, checksum = 12751, ....................
+Packet in slide window: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+Packet in slide window: seqnum = 98, acknum = -1, checksum = 46163, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 99, acknum = -1, checksum = 43592, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 100, acknum = -1, checksum = 41021, VVVVVVVVVVVVVVVVVVVV
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = -1, acknum = 101, checksum = 12750, ....................
+Packet in slide window: seqnum = 98, acknum = -1, checksum = 46163, TTTTTTTTTTTTTTTTTTTT
+Packet in slide window: seqnum = 99, acknum = -1, checksum = 43592, UUUUUUUUUUUUUUUUUUUU
+Packet in slide window: seqnum = 100, acknum = -1, checksum = 41021, VVVVVVVVVVVVVVVVVVVV
+Packet in slide window: seqnum = 101, acknum = -1, checksum = 38450, WWWWWWWWWWWWWWWWWWWW
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 102, acknum = -1, checksum = 35879, XXXXXXXXXXXXXXXXXXXX
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 103, acknum = -1, checksum = 33308, YYYYYYYYYYYYYYYYYYYY
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 104, acknum = -1, checksum = 30737, ZZZZZZZZZZZZZZZZZZZZ
+锟斤拷锟酵凤拷锟斤拷锟酵憋拷锟斤拷: seqnum = 105, acknum = -1, checksum = 29768, EOF                 
+接收方正确收到发送方的报文: seqnum = 102, acknum = -1, checksum = 35879, XXXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = -1, acknum = 102, checksum = 12749, ....................
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+接收方正确收到发送方的报文: seqnum = 103, acknum = -1, checksum = 33308, YYYYYYYYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = -1, acknum = 103, checksum = 12748, ....................
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 103, acknum = -1, checksum = 33308, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 104, acknum = -1, checksum = 30737, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 105, acknum = -1, checksum = 29768, EOF                 
+Packet in slide window: seqnum = 102, acknum = -1, checksum = 35879, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 104, acknum = -1, checksum = 30737, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 105, acknum = -1, checksum = 29768, EOF                 
+Packet in slide window: seqnum = 102, acknum = -1, checksum = 35879, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 103, acknum = -1, checksum = 33308, YYYYYYYYYYYYYYYYYYYY
+接收方正确收到发送方的报文: seqnum = 104, acknum = -1, checksum = 30737, ZZZZZZZZZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = -1, acknum = 104, checksum = 12747, ....................
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 105, acknum = -1, checksum = 29768, EOF                 
+Packet in slide window: seqnum = 102, acknum = -1, checksum = 35879, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 103, acknum = -1, checksum = 33308, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 104, acknum = -1, checksum = 30737, ZZZZZZZZZZZZZZZZZZZZ
+锟斤拷锟酵凤拷锟斤拷时锟斤拷时锟戒到锟斤拷锟截凤拷锟较次凤拷锟酵的憋拷锟斤拷: seqnum = 105, acknum = -1, checksum = 29768, EOF                 
+接收方正确收到发送方的报文: seqnum = 105, acknum = -1, checksum = 29768, EOF                 
+接收方发送确认报文: seqnum = -1, acknum = 105, checksum = 12746, ....................
+******模拟网络环境******：向上递交给应用层数据：EOF                  
+接收方正确收到发送方的报文: seqnum = 105, acknum = -1, checksum = 29768, EOF                 
+接收方发送确认报文: seqnum = -1, acknum = 105, checksum = 12746, ....................
+Packet in slide window: seqnum = 102, acknum = -1, checksum = 35879, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 103, acknum = -1, checksum = 33308, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 104, acknum = -1, checksum = 30737, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 105, acknum = -1, checksum = 29768, EOF                 
+Packet in slide window: seqnum = 102, acknum = -1, checksum = 35879, XXXXXXXXXXXXXXXXXXXX
+Packet in slide window: seqnum = 103, acknum = -1, checksum = 33308, YYYYYYYYYYYYYYYYYYYY
+Packet in slide window: seqnum = 104, acknum = -1, checksum = 30737, ZZZZZZZZZZZZZZZZZZZZ
+Packet in slide window: seqnum = 105, acknum = -1, checksum = 29768, EOF                 
+******模拟网络环境******：模拟网络环境已发送完应用层数据，关闭模拟网络环境
+已发送应用层Message个数: 105
+发送到网络层数据Packet个数: 214
+网络层丢失的数据Packet个数: 20
+网络层损坏的数据pakcet个数:20
+发送到网络层确认Packet个数:174
+网络层丢失的确认Packet个数: 20
+网络层损坏的确认Packet个数: 17
+

@@ -1,0 +1,12 @@
+/httpServer/boost_1_70_0
+/StopWait/.vs/*
+**/boost_1_70_0
+*.vs
+/schoolmap
+**/Debug
+**/Release
+**/x64
+
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.*
