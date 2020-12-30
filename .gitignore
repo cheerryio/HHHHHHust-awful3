@@ -1,0 +1,6 @@
+node_modules
+.vs
+Debug
+x64
+*.vcxproj.filters
+*.vcxproj.user
