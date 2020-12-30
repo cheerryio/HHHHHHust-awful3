@@ -1,1 +1,3 @@
-# This records my bad homework and my memory
+# CPPHOMEWORK
+
+## MY BAD HOMEWORK.....
