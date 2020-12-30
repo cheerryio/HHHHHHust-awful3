@@ -1,0 +1,16 @@
+<configuration>
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/home/hadoop/tmp</value>
+        <description>A base for other temporary directories.</description>
+    </property>
+    <!-- file system properties -->
+    <property>
+        <name>fs.default.name</name>
+        <value>hdfs://cluster-master:9000</value>
+    </property>
+    <property>
+        <name>fs.trash.interval</name>
+        <value>4320</value>
+    </property>
+</configuration>

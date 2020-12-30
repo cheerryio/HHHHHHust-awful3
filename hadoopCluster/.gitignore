@@ -1,0 +1,4 @@
+hadoop-3.2.1
+input/*
+config/input/*
+config/output/*
