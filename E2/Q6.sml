@@ -11,8 +11,8 @@ interleave([2,3],[ ]) = [2,3]
 *)
 
 fun interleave([]:int list,[]:int list):int list = []
-|   interleave(x::L1,[]) = x::interleave(L1,[])
-|   interleave([],y::L2) = y::interleave([],L2)
+|   interleave(L1,[]) = L1
+|   interleave([],L2) = L2
 |   interleave(x::L1,y::L2) = x::y::interleave(L1,L2);
 
 interleave([2,3],[4,5,6,7,8,9]);
