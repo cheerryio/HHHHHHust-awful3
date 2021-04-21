@@ -18,15 +18,47 @@ fun toInt(b:int):int list->int =
             |   toIntHelper(biminus1:int,b:int,sum:int,x::L):int = toIntHelper(biminus1*b,b,sum+x*biminus1,L)
         in
             fn L => toIntHelper(1,b,0,L)
-        end
+        end;
 
-toInt(1);
+toInt(3);
+toInt(2)([0,0,1,1]);
+toInt(10)([4,5]);
 
 (*
 (2) 利用数学操作mod和div可以将任意十进制整数n表示成基于基数b的b进制数形式，如4210=1325。
  编写高阶函数  toBase: int -> int -> int list 实现该转换：toBase b n将十进制数n转换为b进制数的int list表述形式（b>1, n≥0）。
+*)
 
+fun toBase(b:int):int->int list = 
+    if b < 2
+    then raise Fail "base cant below 2"
+    else
+        fn n =>
+            if n = 0
+            then []
+            else (n mod b)::toBase(b)(n div b);
+
+toBase(10)(54);
+toBase(2)(36);
+
+(*
 (3)编写高阶函数    convert: int * int -> int list -> int list
 对任意b1, b2 > 1和所有L: int list（L为一个b1进制数的int list表述形式），函数convert(b1, b2) L将b1进制数的int list表述L转换成b2进制数的int list表述，即满足 toInt b2 (convert(b1, b2) L) = toInt b1 L。
 *)
+fun mapList'(f:'a->'b):'a list -> 'b list = 
+    fn L =>
+        case L of
+            [] => []
+        |   x::R => f(x)::mapList'(f)(R);
 
+fun convert(b1:int,b2:int):int list->int list = 
+    if b1 < 2 orelse b2 < 2
+    then raise Fail "b1 and b2 cant below 2"
+    else
+        let
+            fun convertInt(n:int):int = toInt(b2)(toBase(b1)(n))
+        in
+            fn L => mapList'(convertInt)(L)
+        end;
+
+convert(10,2)([1,2]);
