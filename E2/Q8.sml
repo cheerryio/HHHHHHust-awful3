@@ -41,3 +41,14 @@ fun fastPrefixSum([]:int list):int list = []
         end;
 
 fastPrefixSum([5,6,7,8]);
+
+fun fastPrefixSum'([]:int list):int list=[]
+|   fastPrefixSum'(A:int list):int list = 
+        let
+            fun fastPrefixSumHelp'([]:int list,sum:int):int list = []
+            |   fastPrefixSumHelp'(x::L,sum:int):int list = (sum+x)::fastPrefixSumHelp'(L,sum+x)
+        in
+            fastPrefixSumHelp'(A,0)
+        end;
+
+fastPrefixSum'([5,6,7,8]);

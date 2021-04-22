@@ -45,20 +45,10 @@ toBase(2)(36);
 (3)编写高阶函数    convert: int * int -> int list -> int list
 对任意b1, b2 > 1和所有L: int list（L为一个b1进制数的int list表述形式），函数convert(b1, b2) L将b1进制数的int list表述L转换成b2进制数的int list表述，即满足 toInt b2 (convert(b1, b2) L) = toInt b1 L。
 *)
-fun mapList'(f:'a->'b):'a list -> 'b list = 
-    fn L =>
-        case L of
-            [] => []
-        |   x::R => f(x)::mapList'(f)(R);
 
 fun convert(b1:int,b2:int):int list->int list = 
     if b1 < 2 orelse b2 < 2
     then raise Fail "b1 and b2 cant below 2"
-    else
-        let
-            fun convertInt(n:int):int = toInt(b2)(toBase(b1)(n))
-        in
-            fn L => mapList'(convertInt)(L)
-        end;
+    else fn L => toBase(b2)(toInt(b1)(L));
 
-convert(10,2)([1,2]);
+convert(10,2)([6]);

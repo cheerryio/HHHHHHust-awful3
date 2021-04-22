@@ -16,4 +16,3 @@ fun factor(0:int):int = 1
 thenAddOne(double,5);
 thenAddOne(square,5);
 thenAddOne(factor,5);
-
