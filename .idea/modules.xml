@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SearchEngineForStudent/SearchEngineForStudent.iml" filepath="$PROJECT_DIR$/SearchEngineForStudent/SearchEngineForStudent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter11to13/chapter11to13.iml" filepath="$PROJECT_DIR$/chapter11to13/chapter11to13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter19/chapter19.iml" filepath="$PROJECT_DIR$/chapter19/chapter19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2to3/chapter2to3.iml" filepath="$PROJECT_DIR$/chapter2to3/chapter2to3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4to5/chapter4to5.iml" filepath="$PROJECT_DIR$/chapter4to5/chapter4to5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6to7/chapter6to7.iml" filepath="$PROJECT_DIR$/chapter6to7/chapter6to7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter9/chapter9.iml" filepath="$PROJECT_DIR$/chapter9/chapter9.iml" />
+    </modules>
+  </component>
+</project>
